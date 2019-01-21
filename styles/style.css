@@ -2,6 +2,7 @@ body {
   font: 10px sans-serif;
 }
 
+/* note that the #apple-stock-chart means that those styles apply only to these charts */
 #apple-stock-chart .axis path,
 #apple-stock-chart .axis line {
   fill: none;

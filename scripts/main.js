@@ -30,6 +30,9 @@ var svg = d3.select("body").append("svg")
     .attr("height", height + margin.top + margin.bottom)
     .attr("class", "chart")
     .attr("id", "apple-stock-chart")
+    // note that the apple-stock-chart singles this chart out
+    //we also added the attributes of "class" and "chart"
+      // the next step, of course, is to go to the CSS and make sure that the styles apply only to the chart of interest.
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 

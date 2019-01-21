@@ -1,3 +1,5 @@
+<!-- This is the Apple Stock Example Graph -->
+<!-- Replicated from https://bl.ocks.org/mbostock/3902569 -->
 <!DOCTYPE html>
 <html>
 
@@ -16,8 +18,14 @@
   <p> D3 visualization is really complicated </p>
 
   <!--Run JavaScript scripts in the body-->
+  <!--Note: // tells the computer to use with https, when possible -->
   <script src="//d3js.org/d3.v3.min.js"></script>
   <script src="scripts/main.js"></script>
+
+<!--note that we are putting in a divider and then adding a chart name -->
+<!-- note that it's not necessary to have a "#" here because we have an id selector -->
+<!-- cf. the documentation for the .css file -->
+  <div id="apple-stock-chart-container"></div>
 
 </body>
 </html>
